@@ -239,16 +239,8 @@ public class carNetwork : MonoBehaviour
     /// </summary>
     private void increaseFitness()
     {
-        // encourages moving and fast movement
-        //add speed to fitness
-        //if(speed > 5)
-        //    neuralNetwork.addFitness(speed * Time.deltaTime * 2);
-        //else 
-        // if (speed > 0)
-        //     neuralNetwork.addFitness(speed * Time.deltaTime);
         if (velocity <= 0)
             neuralNetwork.addFitness(velocity * 100); // severly punish moving backwards (should stop revesing over a lap gate constantly)
-        //add distance traveled to fitness
 
     }
 }

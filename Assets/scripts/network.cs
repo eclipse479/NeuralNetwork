@@ -152,13 +152,6 @@ public class network : IComparable<network>
     }
 
     /// <summary>
-    /// sets the bias neurons
-    /// </summary>
-    private void setBiasNeuron()
-    {
-
-    }
-    /// <summary>
     /// mutates the weights on a random chance
     /// </summary>
     public void mutate()
@@ -167,19 +160,19 @@ public class network : IComparable<network>
         {
             for (int j = 0; j < weights[i].Length; j++)//goes through each neuron in the layer
             {
-                for (int k = 0; k < weights[i][j].Length; k++)//goes through each weight on th eneuron
+                for (int k = 0; k < weights[i][j].Length; k++)//goes through each weight on the neuron
                 {
                     float weight = weights[i][j][k];
                     float randNum = UnityEngine.Random.Range(1, 1000);
                     //each weight has a 2% chance to mutate on a mutate one of 4 possible mutations will occur
 
-                    if (randNum <= 5) // 0.5% chance to increase value by 10 - 70%
+                    if (randNum <= 5) // 0.5% chance to increase value by 10 - 90%
                     {
                         //increase by a percentage on 5,6
-                        float percent = UnityEngine.Random.Range(0.1f, 0.7f);
+                        float percent = UnityEngine.Random.Range(0.1f, 0.9f);
                         weight *= (percent + 1);
                     }
-                    else if (randNum <= 10)// 0.5% chance to decrease value by 10 - 70%
+                    else if (randNum <= 10)// 0.5% chance to decrease value by 10 - 90%
                     {
                         //decrease by a percentage on 7,8
                         float percent = UnityEngine.Random.Range(0.3f, 0.9f);

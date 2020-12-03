@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EA79DB1E-6924-75FF-DECF-7E7A1F8B0B34}</ProjectGuid>
+    <ProjectGuid>{9882B084-551B-F402-60A9-6ECAD97EBAA8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -73,31 +73,31 @@
     <Compile Include="Assets\scripts\walls.cs" />
     <None Include="Assets\previousCars\savedWeights.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Aaron/Desktop/Complex Game Systems/machineLearningCarDrive/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/NeuralNetwork/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Aaron/Desktop/Complex Game Systems/machineLearningCarDrive/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/NeuralNetwork/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Aaron/Desktop/Complex Game Systems/machineLearningCarDrive/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/NeuralNetwork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Aaron/Desktop/Complex Game Systems/machineLearningCarDrive/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/NeuralNetwork/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Aaron/Desktop/Complex Game Systems/machineLearningCarDrive/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/NeuralNetwork/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Aaron/Desktop/Complex Game Systems/machineLearningCarDrive/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/NeuralNetwork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Aaron/Desktop/Complex Game Systems/machineLearningCarDrive/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/NeuralNetwork/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Aaron/Desktop/Complex Game Systems/machineLearningCarDrive/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/NeuralNetwork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Aaron/Desktop/Complex Game Systems/machineLearningCarDrive/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Aaron/Desktop/NeuralNetwork/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
